@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="YoLX_Resell:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/YoLX_Resell_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="YoLX_Resell/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="YoLX_Resell" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

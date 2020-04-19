@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding:2px
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url("../image/background.jpg");
+    background-attachment: fixed;
+background-size: cover;
+    backdrop-filter: blur();
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+    color:White;
+    text-shadow: mediumblue;
+}
+.logo{
+    font-size:48px;
+    font-family: "Arial Rounded MT Bold";
+    color: orange;
+    text-shadow: cornsilk;
+    text-decoration-style: solid;
+    text-align: center;
+    align-content: center;
+}
+.signupform{
+    background-color: white;
+    align-content: center;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    width:50rem;
+    padding: 15px;
+}
+.signupform:hover{
+    transition: 1s;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2) ;
+}
+label{
+    font-size: large;
+}
+#signupform.inp{
+    min-width: 160px;
+}
+@media screen and (max-width:600px)
+{
+    #signupform{padding:10%;width:500px}
+}
